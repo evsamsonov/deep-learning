@@ -3,6 +3,7 @@ extern crate blas_src;
 
 use ndarray::{Array, ArrayBase, OwnedRepr, Ix1};
 
+// see https://github.com/rust-ndarray/ndarray
 // see https://rust-lang-nursery.github.io/rust-cookbook/science/mathematics/linear_algebra.html
 // need install openblas lib
 
