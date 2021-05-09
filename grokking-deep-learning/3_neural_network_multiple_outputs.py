@@ -2,7 +2,7 @@ import numpy as np
 
 
 def neural_network(input_value: float, weights: np.ndarray) -> np.ndarray:
-    # Умножаем каждое элемент вектора на число и получаем вектор с результатом
+    # Умножаем каждый элемент вектора на число и получаем вектор с результатами
     return weights * input_value
 
 
