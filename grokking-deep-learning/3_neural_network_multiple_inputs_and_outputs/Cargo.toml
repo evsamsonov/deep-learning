@@ -1,0 +1,12 @@
+[package]
+name = "neural_network_multiple_inputs_and_outputs"
+version = "0.1.0"
+authors = ["evgeny <bitniks@yandex.ru>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ndarray = {version = "0.15.1", features = ["blas"]}
+blas-src = { version = "*", features = ["openblas"] }
+openblas-src = { version = "*", features = ["cblas", "system"] }
