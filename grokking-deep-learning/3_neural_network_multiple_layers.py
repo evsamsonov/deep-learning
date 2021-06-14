@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def multiple(input_values: np.ndarray, weights: np.ndarray):
     # Умножаем входящий вектор на каждый вектор в матрице весов
     output = [0, 0, 0]
