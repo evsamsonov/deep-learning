@@ -15,7 +15,11 @@ def main():
     for i in range(1101):
         prediction = neural_network(input_value, weight)
         mead_squared_error = get_error(prediction, real)
-        print("Error: " + str(mead_squared_error) + " Prediction: " + str(prediction))
+        print(
+            "Error: " + str(mead_squared_error) +
+            " Prediction: " + str(prediction) +
+            " Weight: " + str(weight)
+        )
 
         up_prediction = neural_network(input_value, weight + step)
         up_error = get_error(up_prediction, real)
