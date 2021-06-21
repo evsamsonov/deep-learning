@@ -11,11 +11,13 @@ def main():
     input_value = 0.5
     real = 0.8
 
+    alpha = 0.01
+
     for i in range(20):
         prediction = neural_network(input_value, weight)
         mead_squared_error = get_error(prediction, real)
         corr = (prediction - real) * input_value
-        weight = weight - corr
+        weight = weight - corr * alpha
 
         print(
             "Error: " + str(mead_squared_error) +
