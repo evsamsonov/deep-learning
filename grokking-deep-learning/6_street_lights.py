@@ -34,7 +34,7 @@ def main():
 
             weights = weights - (alpha * (input_values * delta))
 
-            print("Iteration: " + str(i) + ", Row:" + str(j))
+            print("Iteration: " + str(i) + ", Row: " + str(j))
             print("Prediction: " + str(prediction) + " Error: " + str(error))
             print("Weights: " + str(weights))
         print("\n")
