@@ -3,6 +3,7 @@ import numpy as np
 np.random.seed(1)
 
 
+# Функция активации нейрона
 def relu(x: np.ndarray):
     return (x > 0) * x
 
